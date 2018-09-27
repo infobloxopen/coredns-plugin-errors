@@ -1,0 +1,36 @@
+reviewers:
+  - bradbeam
+  - chrisohaver
+  - dilyevsky
+  - fastest963
+  - fturib
+  - greenpau
+  - grobie
+  - isolus
+  - johnbelamaric
+  - miekg
+  - pmoroney
+  - rajansandeep
+  - stp-ip
+  - superq
+  - varyoo
+  - yongtang
+
+approvers:
+  - chrisohaver
+  - johnbelamaric
+  - miekg
+  - yongtang
+
+features:
+  - comments
+  - reviewers
+  - aliases
+  - branches
+  - exec
+
+aliases:
+  - |
+    /plugin: (.*) -> /label add: plugin/$1
+  - |
+    /release: (.*) -> /exec: /opt/bin/release-coredns $1

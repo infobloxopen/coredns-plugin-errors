@@ -1,0 +1,155 @@
+hash: cbecb5ae7a7f7382db7137cbbabb774e3349badcbe717e290c90bbfc4a1c8a46
+updated: 2018-09-27T20:02:15.466400613+03:00
+imports:
+- name: github.com/beorn7/perks
+  version: 3a771d992973f24aa725d07868b467d1ddfceafb
+  subpackages:
+  - quantile
+- name: github.com/coredns/coredns
+  version: 1c95ede2acdf95babfa603818b8a20e3cebc12ad
+  subpackages:
+  - core/dnsserver
+  - pb
+  - plugin
+  - plugin/etcd/msg
+  - plugin/metrics/vars
+  - plugin/pkg/dnsutil
+  - plugin/pkg/doh
+  - plugin/pkg/edns
+  - plugin/pkg/log
+  - plugin/pkg/nonwriter
+  - plugin/pkg/parse
+  - plugin/pkg/rcode
+  - plugin/pkg/response
+  - plugin/pkg/trace
+  - plugin/pkg/transport
+  - plugin/pkg/watch
+  - request
+- name: github.com/flynn/go-shlex
+  version: 3f9db97f856818214da2e1057f8ad84803971cff
+  repo: https://github.com/flynn/go-shlex
+- name: github.com/golang/protobuf
+  version: b4deda0973fb4c70b50d226b1af49f3da59f5265
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/google/uuid
+  version: dec09d789f3dba190787f8b4454c7d3c936fed9e
+  repo: https://github.com/google/uuid
+- name: github.com/grpc-ecosystem/grpc-opentracing
+  version: 8e809c8a86450a29b90dcc9efbf062d0fe6d9746
+  subpackages:
+  - go/otgrpc
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/mholt/caddy
+  version: 13f9c34d161693c1c0828fea3750d01c068174b6
+  subpackages:
+  - caddyfile
+  - telemetry
+- name: github.com/miekg/dns
+  version: 0f3adef2e2201d72e50309a36fc99d8a9d1a4960
+- name: github.com/opentracing/opentracing-go
+  version: 6aa6febac7b98f836100ecaea478c04f30b6dbd0
+  subpackages:
+  - ext
+  - log
+- name: github.com/prometheus/client_golang
+  version: 2d5a6493f89f13c9779c2e097e0710e0f4478bae
+  subpackages:
+  - prometheus
+  - prometheus/internal
+- name: github.com/prometheus/client_model
+  version: 5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: c7de2306084e37d54b8be01f3541a8464345e9a5
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 418d78d0b9a7b7de3a6bbc8a23def624cc977bb2
+  subpackages:
+  - internal/util
+  - nfs
+  - xfs
+- name: golang.org/x/crypto
+  version: 94eea52f7b742c7cbe0b03b22f0c4c8631ece122
+  repo: https://go.googlesource.com/crypto
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - hkdf
+  - ocsp
+  - ssh/terminal
+- name: golang.org/x/net
+  version: f5079bd7f6f74e23c4d65efa0f4ce14cbd6a3c0f
+  repo: https://go.googlesource.com/net
+  subpackages:
+  - bpf
+  - context
+  - http/httpguts
+  - http2
+  - http2/hpack
+  - idna
+  - internal/iana
+  - internal/socket
+  - internal/timeseries
+  - ipv4
+  - ipv6
+  - lex/httplex
+  - publicsuffix
+  - trace
+- name: golang.org/x/text
+  version: 836efe42bb4aa16aaa17b9c155d8813d336ed720
+  repo: https://go.googlesource.com/text
+  subpackages:
+  - internal/gen
+  - internal/triegen
+  - internal/ucd
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/cldr
+  - unicode/norm
+  - unicode/rangetable
+- name: google.golang.org/genproto
+  version: 0e822944c569bf5c9afd034adaa56208bd2906ac
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: 168a6198bcb0ef175f7dacec0b8691fc141dc9b8
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - codes
+  - connectivity
+  - credentials
+  - encoding
+  - encoding/proto
+  - grpclog
+  - internal
+  - internal/backoff
+  - internal/channelz
+  - internal/grpcrand
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []

@@ -28,3 +28,10 @@ test: cover-out
 .PHONY: clean
 clean:
 	@$(RM) $(COVEROUT)
+
+.PHONY: vendor
+vendor:
+	glide cc
+	rm -rf vendor
+	rm -f glide.lock
+	glide install -v --skip-test
